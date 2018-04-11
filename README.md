@@ -6,3 +6,6 @@ Blockchain development tutorials and demo code
 
 ## Pet Shop Tutorial - Truffle, Solidity (Ethereum)
 - http://truffleframework.com/tutorials/pet-shop
+
+## Simple Storage - Truffle Debugging Tutorial
+- http://truffleframework.com/tutorials/debugging-a-smart-contract
