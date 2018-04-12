@@ -4,8 +4,8 @@ Blockchain development tutorials and demo code
 ## Node.js Blockchain tutorial
 - https://hackernoon.com/learn-blockchains-by-building-one-117428612f46
 
-## Pet Shop Tutorial - Truffle, Solidity (Ethereum)
+## Pet Shop Tutorial - Solidity, Truffle Framework (Ethereum)
 - http://truffleframework.com/tutorials/pet-shop
 
-## Simple Storage - Truffle Debugging Tutorial
+## Simple Storage - Solidity / Truffle Debugging Tutorial
 - http://truffleframework.com/tutorials/debugging-a-smart-contract
