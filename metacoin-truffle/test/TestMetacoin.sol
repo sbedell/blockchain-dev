@@ -11,7 +11,7 @@ contract TestMetacoin {
 
     uint expected = 10000;
 
-    Assert.equal(meta.getBalance(tx.origin), expected, "Owner should have 10000 MetaCoin initially");
+    Assert.equal(meta.getBalance(msg.sender), expected, "Owner should have 10000 MetaCoin initially");
   }
 
   function testInitialBalanceWithNewMetaCoin() public {
@@ -19,7 +19,6 @@ contract TestMetacoin {
 
     uint expected = 10000;
 
-    Assert.equal(meta.getBalance(tx.origin), expected, "Owner should have 10000 MetaCoin initially");
+    Assert.equal(meta.getBalance(msg.sender), expected, "Owner should have 10000 MetaCoin initially");
   }
-
 }
