@@ -4,15 +4,10 @@
   "description": "Developing a test demo blockchain app in node js. Taken mostly from https://hackernoon.com/learn-blockchains-by-building-one-117428612f46",
   "license": "MIT",
   "main": "blockchain.js",
-  "keywords": [
-    "nodejs",
-    "bitcoin",
-    "blockchains",
-    "crypto"
-  ],
+  "keywords": ["nodejs", "bitcoin", "blockchains", "crypto"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sbedell/webdev/Blockchains"
+    "url": "https://github.com/sbedell/blockchain-dev/"
   },
   "author": "SB",
   "dependencies": {
