@@ -71,7 +71,7 @@ App = {
         }
       }
     }).catch(function(err) {
-      console.log(err.message);
+      console.error(err.message);
     });
   },
 
@@ -84,7 +84,7 @@ App = {
 
     web3.eth.getAccounts(function(error, accounts) {
       if (error) {
-        console.log(error);
+        console.error(error);
       }
 
       var account = accounts[0];
@@ -97,7 +97,7 @@ App = {
       }).then(function(result) {
         return App.markAdopted();
       }).catch(function(err) {
-        console.log(err.message);
+        console.error(err.message);
       });
     });
   }
