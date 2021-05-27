@@ -24,10 +24,13 @@
         }
     </style>
     <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+    <script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
+    <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+    <script src="https://widgets.coingecko.com/coingecko-coin-list-widget.js"></script>
 </head>
 
 <body>
-    <main>
+    <main>        
         <div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD"></div> <!-- Bitcoin - BTC-->
         <div class="coinmarketcap-currency-widget" data-currencyid="1027" data-base="USD"></div> <!-- Ethereum - ETH -->
         <div class="coinmarketcap-currency-widget" data-currencyid="52" data-base="USD"></div> <!-- Ripple - XRP -->
@@ -37,5 +40,12 @@
         <div class="coinmarketcap-currency-widget" data-currencyid="328" data-base="USD"></div> <!-- Monero - XMR -->
         <div class="coinmarketcap-currency-widget" data-currencyid="1437" data-base="USD"></div> <!-- Zcash - ZEC -->
         <div class="coinmarketcap-currency-widget" data-currencyid="1697" data-base="USD"></div> <!-- Basic Attention Token - BAT -->
+
+        <hr>
+
+        <coingecko-coin-price-chart-widget currency="usd" coin-id="bitcoin" locale="en" height="300"></coingecko-coin-price-chart-widget>
+        <coingecko-coin-price-chart-widget currency="usd" coin-id="dogecoin" locale="en" height="300"></coingecko-coin-price-chart-widget>
+        <coingecko-coin-ticker-widget currency="usd" coin-id="dogecoin" locale="en"></coingecko-coin-ticker-widget>
+        <coingecko-coin-list-widget  coin-ids="bitcoin,ethereum,litecoin,ripple,dogecoin, helium" currency="usd" locale="en"></coingecko-coin-list-widget>
     </main>
 </body>
